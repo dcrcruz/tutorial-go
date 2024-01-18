@@ -9,7 +9,17 @@ var ( // var () so that no need to type var on each
 	v3 string
 )
 
+func negate(x *int) {
+	neg := -*x
+	*x = neg
+}
+
 func main() {
+
+	x := 3
+	fmt.Println(x)
+	negate(&x)
+	fmt.Println(x)
 
 	//declare pointer
 	var ptr *string
@@ -35,4 +45,6 @@ func main() {
 
 	fmt.Println("address of greeting:", ptr) //  value is memory address
 	fmt.Println("value:", *ptr)              // value is pointer value
+
+	DefiningFunction(1, 1)
 }
