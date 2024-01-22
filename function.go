@@ -13,6 +13,6 @@ func DefiningFunction(x, y int) {
 		return x - y
 	}
 
-	// fmt.Printf("add(%v, %v): %v\n", x, y, add(x, y))
+	fmt.Printf("add(%v, %v): %v\n", x, y, add(x, y))
 	fmt.Printf("sub(%v, %v): %v\n", x, y, sub(x, y))
 }
