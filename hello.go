@@ -58,4 +58,7 @@ func main() {
 
 	Defer()
 
+	// myCity := NewCity("bul")
+	// PrintCity(myCity)
+
 }
